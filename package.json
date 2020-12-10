@@ -1,0 +1,21 @@
+{
+	"name": "random_news",
+	"version": "1.0.0",
+	"description": "A funny news site",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"build": "postcss assets/css/scss/style.scss -o assets/css/app.css"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"autoprefixer": "^10.1.0",
+		"postcss": "^8.2.1",
+		"postcss-import": "^13.0.0",
+		"tailwindcss": "^2.0.1"
+	},
+	"devDependencies": {
+		"postcss-cli": "^8.3.0"
+	}
+}

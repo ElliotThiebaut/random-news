@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/app.css">
+    <title>Random News</title>
+</head>
+<body class="flex flex-col h-screen justify-center">
+    <header>
+        <div class="container mx-auto flex justify-center">
+            <h1 class="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 text-white font-semibold text-3xl shadow-md p-5 rounded-md" id="pageTitle">Do you want a random news ?</h1>
+        </div>
+    </header>
+    <main class="mt-10">
+        <div class="container mx-auto flex flex-col items-center">
+            <div class="shadow-lg p-8 rounded-lg hidden" id="newsBlock">
+                <h2 class="font-semibold text-xl" id="news-title">News title</h2>
+                <h3 class="text-gray-500 italic" >Date : <span id="date">Jean Michel</span></h3>
+                <p class="mt-5" id="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas leo magna, facilisis eu consectetur vel, tempor nec dolor. Curabitur quis ornare massa. Pellentesque nec facilisis massa, et fermentum elit. Nunc justo augue, volutpat consequat tincidunt pellentesque, vulputate id odio.</p>
+                <a href="" class="text-blue-400 font-semibold" id="linkArticle" target="_blank">Link to the article</a>
+            </div>
+            <button class="w-2/12 mt-20 bg-blue-500 hover:bg-indigo-500 text-white font-semibold p-2 rounded-md animate-bounce" onclick="getNews()" id="newsButton">Click here</button>
+        </div>
+    </main>
+
+
+
+
+
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
